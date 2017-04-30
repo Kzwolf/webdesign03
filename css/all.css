@@ -245,18 +245,6 @@ body{
 
 }
 
-@media(max-width:320px) {
-	
-	
-}
-
-@media(max-width:768px) {
-	
-}
-
-
-
-
 
 .content{
 	max-width: 840px;
@@ -344,9 +332,10 @@ body{
 .search{
 	background: #F4F4F4;
 	padding: 10px;
-	width: 70px;
+	max-width: 80px;
 	margin-top:10px; 
 	font-weight:bold;
+	text-align: center;
 }
 
 @media(max-width:956px) {
@@ -373,12 +362,32 @@ body{
 		text-align: center;
 	}
 
+	.list{
+		margin: 0 auto;
+		max-width: 65%;
+	}
+
+	.search{
+		margin: 0 auto;
+		width: 250px;
+	}
+
+	.submit{ 
+	width: 30%; 
+	margin: 10px auto;
+	}
+
+	.text{
+		width: 100%;
+	}
+
 }
 
 @media(max-width:320px) {
 	#search{
 		font-size: 20px;
 	}
+
 }
 
 span{
@@ -391,5 +400,3 @@ span{
 	text-align: center;
 	line-height: 30px;
 }
-
-
